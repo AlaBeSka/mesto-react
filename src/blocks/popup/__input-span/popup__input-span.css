@@ -1,0 +1,11 @@
+.popup__input-span {
+  position: absolute;
+  top: 30px;
+  left: 36px;
+}
+
+@media screen and (max-width: 680px) {
+  .popup__input-span {
+    left: 22px;
+  }
+}

@@ -1,0 +1,6 @@
+.element__vote {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 22px 20px 22px 22px;
+}

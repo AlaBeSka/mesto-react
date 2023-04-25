@@ -1,0 +1,19 @@
+.popup__input_type_profession {
+  font-family: inherit;
+  border: 0;
+  height: 24px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #bcbcc4;
+  margin: 35px 36px 0;
+  padding-bottom: 13px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+@media screen and (max-width: 680px) {
+  .popup__input_type_profession {
+    margin: 0 22px 0;
+  }
+}

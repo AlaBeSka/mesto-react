@@ -1,0 +1,10 @@
+.popup__save_type_delete-card {
+  margin: 38px auto 36px;
+}
+
+@media screen and (max-width: 680px) {
+  .popup__save_type_delete-card {
+ margin-top: 30px;
+  }
+}
+

@@ -1,0 +1,16 @@
+.popup__figcaption {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  margin: 10px 0 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 500px;
+}
+
+@media screen and (max-width: 680px) {
+  .popup__figcaption {
+    max-width: 240px;
+  }
+}
