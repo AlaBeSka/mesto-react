@@ -21,7 +21,6 @@ function Card({card, onCardClick, onCardLike, onCardDelete}) {
 
 
 return(
-    <div id="card-add">
         <article className="element">
             <div className="element__photocard">
                 <img src={card.link} alt={card.name} className="element__image" 
@@ -39,7 +38,6 @@ return(
                 </div>
             </div>
         </article>
-    </div>
 )
 }
 

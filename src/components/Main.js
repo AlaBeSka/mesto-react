@@ -27,12 +27,12 @@ function Main({cards, onEditAvatar, onEditProfile, onAddPlace, handleCardClick, 
             <section className="elements">
                 {
                     cards.map((card) => {
-                        return <Card 
-                                key={card.id} 
+                        return (<Card 
+                                key={card._id}
                                 card={card} 
                                 onCardClick={handleCardClick()}
                                 onCardLike = {handleCardLike()}
-                                onCardDelete = {handleDeleteCard()}/>
+                                onCardDelete = {handleDeleteCard()}/>)
                     })
                 }
             </section>
