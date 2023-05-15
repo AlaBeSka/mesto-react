@@ -32,7 +32,7 @@ function Main({cards, onEditAvatar, onEditProfile, onAddPlace, handleCardClick, 
                                 card={card} 
                                 onCardClick={handleCardClick()}
                                 onCardLike = {handleCardLike()}
-                                onCardDelete = {handleDeleteCard()}/>)
+                                onCardDelete = {handleDeleteCard()}/>);
                     })
                 }
             </section>
