@@ -39,12 +39,12 @@ function AddPlacePopup({isOpen, onClose, onAddPlace, isLoading}) {
                 <input name='cardName' id="add-name-input" type="text" placeholder="Название" minLength="2"
                        maxLength="30" required
                        className="popup__input popup__input_type_name"
-                       value={cardName}
+                       value={cardName || ''}
                        onChange={handleCardNameChange}/>
                 <span id="add-name-input-error" className="popup__input-span"></span>
                 <input name='cardSrc' id="add-url-input" type="url" placeholder="Ссылка на картинку" required
                        className="popup__input popup__input_type_profession"
-                       value={link}
+                       value={link || ''}
                        onChange={handleLinkChange}/>
                 <span id="add-url-input-error" className="popup__input-span popup__input-span_type_profession"></span>
             </PopupWithForm>

@@ -32,7 +32,7 @@ function EditAvatarPopup({isOpen, onClose, onUpdateAvatar, isLoading}) {
                 minLength="2"
                 required
                 className="popup__input popup__input_type_name"
-                value={avatar}
+                value={avatar || ''}
                 onChange={handleAvatarChange}
                 ref={(input) => input && input.focus()}
             />

@@ -13,7 +13,7 @@ function PopupWithForm({isOpen, name, onClose, title, children, submitText, onSu
                         type="submit"
                         className="popup__save"
                         name="submit"
-                       defaultValue={submitText}>
+                       defaultValue={submitText || ''}>
                         {isLoading ? "Сохранение..." : submitText || "Сохранить"}
                     </button>
                 </form>
