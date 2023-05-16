@@ -27,7 +27,7 @@ function EditProfilePopup({ isOpen, onClose, onUpdateUser, isLoading }) {
   useEffect(() => {
     setName(currentUser.name);
     setDescription(currentUser.about);
-  }, [currentUser]);
+  }, [currentUser, isOpen]);
 
   return (
     <PopupWithForm
@@ -49,7 +49,7 @@ function EditProfilePopup({ isOpen, onClose, onUpdateUser, isLoading }) {
         maxLength="40"
         required
         className="popup__input popup__input_type_name"
-        value={name || ''}
+        value={name || ""}
         onChange={handleChangeName}
       />
       <span
@@ -65,7 +65,7 @@ function EditProfilePopup({ isOpen, onClose, onUpdateUser, isLoading }) {
         required
         placeholder="О себе"
         className="popup__input popup__input_type_profession"
-        value={description || ''}
+        value={description || ""}
         onChange={handleChangeDescription}
       />
       <span
